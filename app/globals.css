@@ -52,7 +52,7 @@
 }
 
 .circle-outer {
-  background: linear-gradient(to bottom, #575def, #202731);
+  background: linear-gradient(to bottom, red, #202731);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,6 @@
 }
 
 @layer utilities {
-
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -105,7 +104,6 @@
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
